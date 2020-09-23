@@ -1,0 +1,355 @@
+@charset "utf-8";
+/* CSS Document */
+
+.fullscreen
+{
+	width: 100%;
+	height: 100%;
+	background-color: #E5E5E5;
+}
+.header1
+{
+	width: 100%;
+	height: 70px;
+	background-color: #191919;
+	display: flex;
+	justify-content: center;
+	padding: 30px 0 0 0;
+}
+
+.menu
+{
+	width: 100%;
+	height: 55px;
+	background-color: #191919;
+	display: flex;
+	justify-content: center;
+	padding: 10px 0 10px 0;
+}
+
+.menu ul li ul li
+{
+	
+	background-color: #FFFFFF;
+}
+.menu :hover
+{
+	color: #ADADAD;
+	margin-right: 10px;
+	transition: all.3s;
+
+}
+ul
+{
+	list-style: none;
+	padding: 0;
+	
+}
+ul li
+{
+	padding: 15px;
+	float: left;
+	position: relative;
+}
+ul li a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+ul li:hover
+{
+	background-color: #F1F1F1;
+	
+	
+}
+ul li:hover a
+{
+	color: #000000;
+}
+ul li ul
+{
+	position: absolute;
+	left: 0;
+	right: 0;
+	top: 45px;
+	visibility: hidden;
+	
+}
+ul li ul li
+{
+	width: 200px;
+}
+ul li:hover ul
+{
+	visibility: visible;
+}
+.header2
+{
+	background-image: url(../images/header_registration.png);
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-color: #F1F1F1;
+	text-align: center;
+	float: left;
+	color: #FFFFFF;
+	
+	
+	
+}
+.header2 button a
+{
+	text-decoration: none;
+	color: #FFFFFF;
+	
+}
+.header2 button
+{
+	background-color: #22F02D;
+}
+.middle1
+{
+	width: 100%;
+	height: 600px;
+	background-color: #E9E9E9;
+	text-align: center;
+	color: #000000;
+	
+	
+}
+.middle1khung
+{
+	width: 100%;
+	height: 300px;
+	background-color: 0;
+	display: flex;
+	justify-content: center;
+}
+.middle1item
+{
+	width: 120px;
+	height: 150px;
+	background-color: #FFFFFF;
+	float: left;
+	margin:  130px 50px 0px 50px;
+	color: #FFFFFF;
+
+}
+.middle1item button
+{
+	width: 120px;
+	height: 50px;
+	text-decoration: none;
+	background-color: #000000;
+	
+}
+.middle1item button
+{
+	opacity:0.5;
+}
+.middle1item button:hover
+{
+	opacity:1;
+}
+.middle1item button a
+{
+	text-decoration: none;
+	
+}
+.header2 button :hover
+{
+	color: #ADADAD;
+	margin-left: 10px;
+	transition: all.3s;
+
+}
+.middle2
+{
+	width: 100%;
+	height: 800px;
+	background-color: #E9E9E9;
+	text-align: center;
+	background-size: cover;
+	color: #000000;
+	
+}
+.middle2khung
+{
+	width: 100%;
+	height: 300px;
+	background-color: 0;
+	display: flex;
+	justify-content: center;
+}
+.middle2 button
+{
+	background-color: #000000;
+}
+.middle2item
+{
+	width: 200px;
+	height: 350px;
+	background-color: #FFFFFF;
+	float: left;
+	margin:  130px 50px 0px 70px;
+	
+
+}
+button
+{
+	width: 200px;
+	height: 50px;
+	background-color: #000000;
+	color: #FFFFFF;
+	border:0;
+	text-decoration: none;
+}
+
+
+.footer1
+{
+	background-image: url(../images/hinhnen2.jpg);
+	background-size: cover;
+	width: 100%;
+	height: 400px;
+	background-color: #F1F1F1;
+	text-align: center;
+	
+	
+}
+.footer1 button
+{
+	background-color: #28D9DC;
+}
+
+.footer1button
+{
+	width: 200px;
+	height: 100px;
+	
+	padding: 0 0 0px 960px;
+	position: absolute;
+	left: 150px;
+}
+.footer1buttonkhung
+{
+	width: 100%;
+	height: 300px;
+	background-color: 0;
+	display: flex;
+	justify-content: center;
+	position: relative;
+}
+.footer2
+{
+	width: 100%;
+	height: 300px;
+	background-color: #191919;
+	color: #FFFFFF;
+	position: relative;
+	
+}
+.moreinfors
+{
+	width: 100%;
+	height: 300px;
+	background-color: #191919;
+	display: flex;
+	justify-content: center;
+	color: #FFFFFF;
+}
+.moreinfors_items
+{
+	width: 300px;
+	height: 100px;
+	float: left;
+	margin: 50px 10px 50px 10px;
+	text-align: left;
+}
+.moreinfors_items :hover
+{
+	color: #ADADAD;
+	margin-left: 10px;
+	transition: all.3s;
+
+}
+.moreinfors_items .l1
+{
+	color: #FFFFFF;
+	text-decoration: none;
+}
+.footer-bottom
+{
+	background-color: #2C455F;
+	color: #CDCDCD;
+	width: 100%;
+	height: 20px;
+	text-align: center;
+	position: absolute;
+	bottom: 0px;
+	left: 0;
+	padding-top: 10px;
+}
+.khungicon
+{
+	width: 200px;
+	height: 20px;
+	
+	padding: 100px 0px 0px 1000px;
+}
+.socials a
+{
+	border: none;
+	width: 30px;
+	height: 30px;
+	padding-top: 2px;
+	margin-right: 3px;
+	text-align: center;
+	display: inline-block;
+	font-size: 1.3em;
+	border-radius: 5px;
+	transition: all.3s;
+}
+.socials a:hover
+{
+	border: 1px #FFFFFF;
+	color: #FFFFFF;
+	transition: all.3s;
+}
+.footercontact
+{
+	width: 200px;
+	height: 100px;
+	background-color: 0;
+	padding: 0px 0px 0px 1000px;
+}
+.footercontact button a
+{
+text-decoration: none;
+	color: #FFFFFF;
+}
+.footercontact button
+{
+	background-color: #528A96;
+}
+.footercontact button a:hover
+{
+	color: #ADADAD;
+	margin-left: 10px;
+	transition: all.3s;
+
+}
+.grow:hover
+{
+        -webkit-transform: scale(1.3);
+        -ms-transform: scale(1.3);
+        transform: scale(1.3);
+}
+
+.shrink:hover
+{
+        -webkit-transform: scale(0.8);
+        -ms-transform: scale(0.8);
+        transform: scale(0.8);
+}
